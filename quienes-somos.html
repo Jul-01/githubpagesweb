@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Quiénes somos? - Agencia Espacial Mexicana</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4; /* Fondo suave */
+        }
+        header {
+            background: linear-gradient(to right, #000000, #434343); /* Degradado negro */
+            color: white;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+            display: flex; /* Cambié a flex para alinearlos en una fila */
+            align-items: center; /* Alinea el logo y el título verticalmente */
+            justify-content: center; /* Centra el contenido horizontalmente */
+        }
+
+        .logo {
+            width: 150px; /* Aumenté el tamaño del logo */
+            height: auto;
+            margin-right: 20px; /* Añadí espacio entre el logo y el texto */
+        }
+
+        h1 {
+            margin: 0; /* Elimina márgenes de la etiqueta <h1> */
+            font-size: 2rem;
+        }
+
+        nav {
+            text-align: center;
+            background: linear-gradient(to right, #000000, #434343); /* Degradado negro */
+            padding: 10px 0;
+        }
+        nav a {
+            color: white; /* Gris claro para los enlaces */
+            text-decoration: none;
+            padding: 12px 20px;
+            display: inline-block;
+            margin: 0 15px;
+            border-radius: 4px;
+            font-size: 1.1rem;
+            transition: color 0.3s ease, background-color 0.3s ease; /* Transición más suave */
+        }
+        nav a:hover {
+            background-color: black; /* Cambio al pasar el ratón */
+            color: #ffffff; /* Cambiar color de texto a blanco */
+            border-radius: 8px; /* Bordes redondeados */
+        }
+        main {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin-bottom: 80px; /* Evitar que el contenido se superponga al footer */
+        }
+        h2 {
+            color: #0b3d91;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .gallery {
+            display: flex;
+            justify-content: space-around; /* Alineación de las imágenes */
+            flex-wrap: wrap;
+            gap: 20px; /* Espaciado entre las imágenes */
+        }
+        .gallery img {
+            width: 100%; /* Se ajusta al tamaño de su contenedor */
+            max-width: 350px; /* Limita el tamaño máximo de las imágenes */
+            height: auto;
+            border-radius: 8px; /* Bordes redondeados en las imágenes */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave para profundidad */
+            border: 5px solid black; /* Contorno negro de 5px */
+        }
+
+        footer {
+            background: linear-gradient(to right, #000000, #434343); /* Degradado negro */
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        footer p {
+            margin: 0;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="img/agencia_espacial_mexicana_logo.jpeg" alt="Logo Agencia Espacial Mexicana" class="logo">
+        <h1>Agencia Espacial Mexicana</h1>
+    </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="quienes-somos.html">¿Quiénes somos?</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+    <main>
+        <h2>¿Quiénes somos?</h2>
+        <p>Somos la institución encargada de coordinar y fomentar actividades espaciales en México, trabajando por un futuro innovador y sostenible.</p>
+        <div class="gallery">
+            <img src="img/aem-medios-focus-0-0-696-464.jpg" alt="Traje de astronauta ">
+            <img src="img/simbolo.jpg" alt="Símbolo misiones 2024">
+            <img src="img/384px-Josemex.jpg" alt="Astronauta Mexicano">
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Agencia Espacial Mexicana. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
